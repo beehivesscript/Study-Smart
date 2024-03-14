@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="22522" systemVersion="23C71" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Core" representedClassName="Core" syncable="YES" codeGenerationType="class">
+        <attribute name="cas" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="core_ID" optional="YES" attributeType="UUID" usesScalarValueType="NO"/>
+        <attribute name="ext_E" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="tok" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+    </entity>
+    <entity name="Flashcards" representedClassName="Flashcards" syncable="YES" codeGenerationType="class">
+        <attribute name="definition" optional="YES" attributeType="String"/>
+        <attribute name="flashcards_ID" optional="YES" attributeType="UUID" usesScalarValueType="NO"/>
+        <attribute name="num" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="text" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="Item" representedClassName="Item" syncable="YES" codeGenerationType="class">
+        <attribute name="timestamp" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+    </entity>
+    <entity name="Levels" representedClassName="Levels" syncable="YES" codeGenerationType="class">
+        <attribute name="higher" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="standard" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+    </entity>
+    <entity name="Subjects" representedClassName="Subjects" syncable="YES" codeGenerationType="class">
+        <attribute name="group_1" optional="YES" attributeType="String"/>
+        <attribute name="group_2" optional="YES" attributeType="String"/>
+        <attribute name="group_3" optional="YES" attributeType="String"/>
+        <attribute name="group_4" optional="YES" attributeType="String"/>
+        <attribute name="group_5" optional="YES" attributeType="String"/>
+        <attribute name="group_6" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="group_42" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="subject_ID" optional="YES" attributeType="UUID" usesScalarValueType="NO"/>
+    </entity>
+</model>
